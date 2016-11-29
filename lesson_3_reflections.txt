@@ -1,1 +1,2 @@
-
+- When would you want to use a remote repository rather than keeping all your work local?
+  + when you want more people working on the smae project or when you want to work on multiple places on the project. That way you will always have the code and repository available.
