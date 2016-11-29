@@ -2,3 +2,13 @@
 	+ It will make a directory with metadata to track all the changes. This is a starting point to track changes made to your files.
 - How is the staging area different from the working directory and the repository? What value do you think it offers?
 	+ Working directory has all the files in it, the staging area only the files that are added by the user (probably the ones with changes). The value is that it has that you are able to commit multiple files in one logical commit.
+- How can you use the staging area to make sure you have one commit per logical change?
+	+ You can check what files will be commited. At this point you can make sure that the changes made to that file are the ones you want to commit.
+- What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	+ When you add experimental features or add different languages. So changing something that is not really needed for the main function of the program/game.
+- How do the diagrams help you visualize the branch structure?
+	+ You can see at what point a branch was made and are able to see what commit is reachable and which not.
+- What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	+ The code from both branches are merged into one file. It checks the last commits of both branches with hte commit at the point the branch was made to see what lines to keep and what lines to remover from the merge commit.
+- What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	+ A lot of changes will be merged automatically. Only the changes on code in the same area will not be automatically changed but asked to te user what to do.
