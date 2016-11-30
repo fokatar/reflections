@@ -2,3 +2,5 @@
   + when you want more people working on the smae project or when you want to work on multiple places on the project. That way you will always have the code and repository available.
 - Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 	+ This way you are in control of what is pulled from GitHub.
+- Describe the differences between forks, clones, and branches. When would you use one instead of another?
+	+ forks makes a copy of the project on GitHub. A fork is a kind of clone but it clones on GitHub. Usually a clone is to make a local copy or make a copy from GitHub to local. Branches are only stored in one place (local or on GitHub) and do not make a copy of the code only allow you to make changes that will not affect the 'main' code.
